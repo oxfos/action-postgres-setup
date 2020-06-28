@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Oxfos/action-postgres-setup/issues"
   },
-  "homepage": "https://github.com/Oxfos/action-postgres-setup#readme"
+  "homepage": "https://github.com/Oxfos/action-postgres-setup#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
 }
