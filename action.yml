@@ -1,13 +1,14 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Setup postgres'
+description: 'Setup postgres with provided settings'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  POSTGRES_HOST:  # id of input
+    description: 'postgres_host'
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+    default: 'localhost'
+  POSTGRES_PORT: # id of post
+    description: 'postgres_port'
+    required: true
+    default: '5432'
 runs:
   using: 'node12'
   main: 'index.js'
