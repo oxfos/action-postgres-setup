@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Oxfos/action-postgres-setup#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/github": "^4.0.0"
+    "@actions/github": "^4.0.0",
+    "pg": "^8.2.1"
   }
 }
