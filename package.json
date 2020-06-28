@@ -1,0 +1,20 @@
+{
+  "name": "action-postgres-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oxfos/action-postgres-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oxfos/action-postgres-setup/issues"
+  },
+  "homepage": "https://github.com/Oxfos/action-postgres-setup#readme"
+}
