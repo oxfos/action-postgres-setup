@@ -112,3 +112,7 @@ typings/
 .vscode-test
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# OWN
+Pipfile
+Pipfile.lock
