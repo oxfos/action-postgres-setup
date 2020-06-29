@@ -9,18 +9,6 @@ inputs:
     description: 'postgres_port'
     required: true
     default: '5432'
-  POSTGRES_USER: # id of user
-    description: 'postgres_user'
-    required: true
-    default: 'postgres'
-  POSTGRES_PW: # password of database
-    description: 'postgres_pw'
-    required: true
-    default: 'postgres'
-  POSTGRES_DB: # id of database
-    description: 'postgres_db'
-    required: true
-    default: 'postgres'
 runs:
   using: 'node12'
   main: 'index.js'
