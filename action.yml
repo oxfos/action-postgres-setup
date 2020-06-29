@@ -9,6 +9,14 @@ inputs:
     description: 'postgres_port'
     required: true
     default: '5432'
+  POSTGRES_USER: # User
+    description: 'postgres_user'
+    required: false
+    default: 'postgres'
+  POSTGRES_PASSWORD: # Password
+    description: 'postgres_password'
+    required: false
+    default: 'postgres'
 runs:
   using: 'node12'
   main: 'index.js'
