@@ -17,6 +17,10 @@ inputs:
     description: 'postgres_password'
     required: false
     default: 'postgres'
+  POSTGRES_DB: # database
+    description: 'postgres_db'
+    required: false
+    default: 'postgres'
 runs:
   using: 'node12'
   main: 'index.js'

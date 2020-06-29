@@ -5,7 +5,8 @@ const pgclient = new Client({
     host: core.getInput('postgres_host'),
     port: core.getInput('postgres_port'),
     user: core.getInput('postgres_user'),
-    password: core.getInput('postgres_password')
+    password: core.getInput('postgres_password'),
+    database: core.getInput('postgres_db')
 });
 
 pgclient.connect();
