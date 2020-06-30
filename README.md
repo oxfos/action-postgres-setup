@@ -2,7 +2,7 @@
 
 - Written in yml and JavaScript.
 - Based on [Docker Postgres image](https://hub.docker.com/_/postgres), [Node pg package](https://node-postgres.com/).
-- Establishes a connection with the Postgres database (sets up the client), populates the client with data, and retrieves data.
+- Establishes a connection with the Postgres database (sets up the client), populates the client with data, and retrieves data. It basically refactors code to create a service container ([explained here](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-postgresql-service-containers#running-jobs-directly-on-the-runner-machine)) into a GitHub Action and adds possibility to define extra database parameters.
 - To be used in [GitHub Actions](https://github.com/features/actions).
 
 ## Prerequisites
