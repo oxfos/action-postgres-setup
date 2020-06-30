@@ -1,5 +1,9 @@
 # Action to establish a connection with and test Docker Postgres database (customizable).
 
+- Written in yml and JavaScript.
+- Based on [Docker Postgres image](https://hub.docker.com/_/postgres), [Node pg package](https://node-postgres.com/).
+- Establishes a connection with the Postgres database (sets up the client), populates the client with data, and retrieves data.
+
 ## Prerequisites
 
 ### Docker Postgres image
