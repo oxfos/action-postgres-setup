@@ -11,7 +11,7 @@
 - POSTGRES_PASSWORD (defaults to 'postgres')
 - POSTGRES_DB (defaults to 'postgres')
 
-### Step action variables
+### Action step variables
 #### Needed:
 - POSTGRES_HOST: localhost
 - POSTGRES_PORT: 5432
@@ -41,7 +41,7 @@ jobs:
         image: postgres
         env:
             POSTGRES_PASSWORD: postgres
-            # Set health checks to wait until postgres has started
+        # Set health checks to wait until postgres has started
         options: >-
             --health-cmd pg_isready
             --health-interval 10s
@@ -58,7 +58,7 @@ jobs:
         - name: Create, populate & query PostgreSQL
         # Runs a script that creates a PostgreSQL client, populates
         # the client with data, and retrieves data
-        uses: Oxfos/action-postgres-setup@master
+        uses: Oxfos/action-postgres-setup@v1
         # Environment variables used by the `index.js` script to create
         # a new PostgreSQL client.
         with:
@@ -69,7 +69,7 @@ jobs:
 
         # whatever additional steps you may want to add here
         - name: name of your step
-            # ...
+          ...
 
 ```
 
@@ -95,7 +95,7 @@ jobs:
             POSTGRES_USER: your_user
             POSTGRES_PASSWORD: my_password
             POSTGRES_DB: my_db
-            # Set health checks to wait until postgres has started
+        # Set health checks to wait until postgres has started
         options: >-
             --health-cmd pg_isready
             --health-interval 10s
@@ -112,7 +112,7 @@ jobs:
         - name: Create, populate & query PostgreSQL
         # Runs a script that creates a PostgreSQL client, populates
         # the client with data, and retrieves data
-        uses: Oxfos/action-postgres-setup@master
+        uses: Oxfos/action-postgres-setup@v1
         # Environment variables used by the `index.js` script to create
         # a new PostgreSQL client.
         with:
@@ -120,13 +120,13 @@ jobs:
             POSTGRES_HOST: localhost
             # The default PostgreSQL port
             POSTGRES_PORT: 5432
-            # Other parameters to access database
+            # Other parameters to access the database
             POSTGRES_USER: your_user
             POSTGRES_PASSWORD: my_password
             POSTGRES_DB: my_db
 
         # whatever additional steps you may want to add here
         - name: name of your step
-            # ...
+          ...
 
 ```
