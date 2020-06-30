@@ -1,4 +1,4 @@
-# Action to establish a connection with and test Docker Postgres database.
+# Action to establish a connection with and test Docker Postgres database (customizable).
 
 ## Prerequisites
 
