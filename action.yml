@@ -1,6 +1,9 @@
 name: 'Setup postgres'
 description: 'Setup postgres with provided settings'
-icon: database
+author: 'Oxfos'
+branding:
+  icon: 'database'
+  color: 'green'
 inputs:
   POSTGRES_HOST:  # id of input
     description: 'postgres_host'
