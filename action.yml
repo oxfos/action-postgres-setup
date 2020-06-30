@@ -1,5 +1,6 @@
 name: 'Setup postgres'
 description: 'Setup postgres with provided settings'
+icon: database
 inputs:
   POSTGRES_HOST:  # id of input
     description: 'postgres_host'
