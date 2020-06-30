@@ -1,5 +1,5 @@
-name: 'Setup postgres'
-description: 'Setup postgres with provided settings'
+name: 'Postgres client with custom settings'
+description: 'Setup postgres client with provided settings'
 author: 'Oxfos'
 branding:
   icon: 'database'
