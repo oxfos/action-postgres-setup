@@ -17,10 +17,9 @@
 - POSTGRES_DB (defaults to 'postgres')
 
 ### Action step variables
-#### Needed:
-- POSTGRES_HOST: localhost
-- POSTGRES_PORT: 5432
 #### Optional action parameters (correspond to those set in Docker image):
+- POSTGRES_HOST (defaults to 'localhost')
+- POSTGRES_PORT (defaults to '5432')
 - POSTGRES_USER (defaults to 'postgres')
 - POSTGRES_PASSWORD (defaults to 'postgres')
 - POSTGRES_DB (defaults to 'postgres')
