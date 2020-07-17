@@ -64,12 +64,7 @@ jobs:
         # the client with data, and retrieves data
         uses: Oxfos/action-postgres-setup@v1
         # Environment variables used by the `index.js` script to create
-        # a new PostgreSQL client.
-        with:
-          # The hostname used to communicate with the PostgreSQL service container
-          POSTGRES_HOST: localhost
-          # The default PostgreSQL port
-          POSTGRES_PORT: 5432
+        # a new PostgreSQL client: not necessary if using default values.
 
         # whatever additional steps you may want to add here
       - name: name of your step
@@ -121,9 +116,9 @@ jobs:
         # a new PostgreSQL client.
         with:
           # The hostname used to communicate with the PostgreSQL service container
-          POSTGRES_HOST: localhost
+          POSTGRES_HOST: your_host
           # The default PostgreSQL port
-          POSTGRES_PORT: 5432
+          POSTGRES_PORT: your_port
           # Other parameters to access the database
           POSTGRES_USER: your_user
           POSTGRES_PASSWORD: my_password
